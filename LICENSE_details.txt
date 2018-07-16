@@ -1,0 +1,30 @@
+The python libraries (and their licenses) that we are explicitly depending on,
+are the following ones,
+
+    - nltk (Apache License)
+    - numpy (BSD)
+    - scipy (BSD)
+    - scikit-learn (BSD)
+    - mock (BSD)
+    - docopt (MIT)
+    - future (MIT)
+    - appdirs (MIT)
+    - wget (Public Domain)
+    - colorama (BSD)
+    - featureforge (BSD)
+
+The development tools we are using:
+
+    - nose (LGPL)
+    - factory-boy (MIT)
+
+Additionally, in order to be able to create your own iepy-ready corpus with our
+preprocessing tools, you'll need to download the following things that are not
+provided by this software
+
+    - punkt tokenizer (acquirable with the NLTK downloader or the
+                       download_third_party_data script)
+    - wordnet (acquirable with the NLTK downloader or the
+               download_third_party_data script)
+    - GPL Stanford CoreNLP (acquirable with download_third_party_data script)
+    - GPL Stanford Spanish Models (acquirable with download_third_party_data script)
